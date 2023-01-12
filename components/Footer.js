@@ -14,27 +14,25 @@ function Footer() {
           </div>
         <div className='space-y-4 text-xs text-gray-400'>   
               <h5 className='font-bold'>COMMUNITY</h5>
-              <p>How HomeAway works</p>
-              <p>Newsroom</p>
-              <p>Investors</p>
-              <p>HomeAway Plus</p>
-              <p>HomeAway Luxe</p>
+              <p>Accessibility</p>
+              <p>Combating Discrimination</p>
+              <p>Disaster Relief Housing</p>
+              <p>Visit our community forum</p>
         </div>
           <div className='space-y-4 text-xs text-gray-400'>
               <h5 className='font-bold'>HOST</h5>
-              <p>How HomeAway works</p>
-              <p>Newsroom</p>
-              <p>Investors</p>
-              <p>HomeAway Plus</p>
-              <p>HomeAway Luxe</p>
+              <p>HomeAway your home</p>
+              <p>HomeAway for Hosts</p>
+              <p>Explore hosting resources</p>
+              <p>How to host responsibly</p>
         </div>
           <div className='space-y-4 text-xs text-gray-400'>
               <h5 className='font-bold'>SUPPORT</h5>
-              <p>How HomeAway works</p>
-              <p>Newsroom</p>
-              <p>Investors</p>
-              <p>HomeAway Plus</p>
-              <p>HomeAway Luxe</p>
+              <p>Help Center</p>
+              <p>Supporting people with disabilities</p>
+              <p>Cancellation options</p>
+              <p>Our COVID-19 Response</p>
+              <p>Report a neighborhood concern</p>
         </div>
    </div>
 

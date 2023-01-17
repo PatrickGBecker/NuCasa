@@ -47,7 +47,7 @@ function Map({ searchResults }) {
                     {selectedLocation.long === result.long ? (
                         <Popup
                             onClose={() => setSelectedLocation({})}
-                            closeOnClick={true}
+                            closeOnClick={false}
                             latitude={selectedLocation.lat}
                             longitude={selectedLocation.long}
                         >

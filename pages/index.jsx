@@ -12,7 +12,7 @@ export default function Home({ exploreData, cardsData }) {
     <div className="">
       <Head>
         <title>Home Away</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/homeAway-favicon.png" />
       </Head>
 
       <Header />

@@ -12,7 +12,7 @@ export default function Home({ exploreData, cardsData }) {
     <div className="">
       <Head>
         <title>NuCasa</title>
-        <link rel="icon" href="/homeAway-favicon.png" />
+        <link rel="icon" href="/nucasa-icon.png" />
       </Head>
 
       <Header />

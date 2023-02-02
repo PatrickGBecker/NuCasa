@@ -89,7 +89,7 @@ function Header({ placeholder }) {
         </div>
         
         {searchInput && (
-            <div className='flex flex-col col-span-3 mx-auto'>
+            <div className='flex flex-col col-span-3 mx-auto pb-2'>
                 <DateRangePicker 
                     ranges={[selectionRange]} 
                     minDate={new Date()}
@@ -109,8 +109,8 @@ function Header({ placeholder }) {
                     className='w-12 pl-2 text-lg text-red-400 outline-none'/>
                 </div>
                 <div className='flex'>
-                    <button onClick={resetInput} className='flex-grow text-gray-500'>Cancel</button>
-                     <button onClick={search} className='flex-grow text-[#ea773d]'>Search</button>
+                      <button onClick={resetInput} className='flex-grow text-gray-500 hover:text-[#FF5A5F]'>Cancel</button>
+                      <button onClick={search} className='flex-grow text-[#ea773d] hover:text-[#FF5A5F]'>Search</button>
                 </div>
             </div>
             )}

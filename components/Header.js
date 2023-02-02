@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
-import HomeAwayLogo from '../public/homeAway-Logo.png';
+import nucasaLogo from '../public/nucasa-logo.png';
 import Image from 'next/legacy/image';
 import { 
     GlobeAltIcon, 
     MenuIcon, 
-    UserCircleIcon, 
-    UsersIcon, 
+    UserCircleIcon,
+    UsersIcon,  
     SearchIcon, 
 } from '@heroicons/react/solid';
 import 'react-date-range/dist/styles.css'; 
@@ -49,17 +49,20 @@ function Header({ placeholder }) {
 
   return (
     <header className='sticky top-0 z-50 grid 
-    grid-cols-3 bg-white shadow-md  px-5 md:px-10'>
+    grid-cols-3 bg-[#74a7af] shadow-md  px-5 md:px-10'>
 
         {/* left */}
         <div onClick={() => router.push('/')} 
         className='relative flex items-center h-20 ml-8
         cursor-pointer my-auto'>
-            <Image 
-                src={HomeAwayLogo} 
-                layout='fill'
-                className='object-contain object-left'
-            />
+            <div className='mt-5 sm:mt-10 sm:mr-8 md:mt-12'>
+                <Image 
+                    src={nucasaLogo} 
+                    height={150}
+                    width={250}
+                    className='object-contain object-left'
+                />
+            </div>
         </div>
         {/* middle */}
         <div className='flex items-center h-10 mt-5 md:border-2 rounded-full py-2 
@@ -68,14 +71,14 @@ function Header({ placeholder }) {
                 value={searchInput}
                 onChange={(e) => setSearchInput(e.target.value)}
                 className='flex-grow pl-5 bg-transparent outline-none 
-                text-sm text-gray-600 placeholder-gray-400' 
+                text-sm text-white placeholder-white' 
                 type='text' 
                 placeholder={placeholder || 'Start your search'} />
-            <SearchIcon className='hidden md:inline-flex h-8 bg-red-400
+              <SearchIcon className='hidden md:inline-flex h-8 bg-[#e0474c]
              text-white rounded-full p-2 cursor-pointer md:mx-2 ' />
         </div>
         {/* right */}
-        <div className='flex items-center space-x-4 justify-end text-gray-500'>
+        <div className='flex items-center space-x-4 justify-end text-white'>
             <p className='hidden md:inline cursor-pointer'>Become a Host</p>
             <GlobeAltIcon className='h-6 cursor-pointer'/>
 
@@ -90,14 +93,14 @@ function Header({ placeholder }) {
                 <DateRangePicker 
                     ranges={[selectionRange]} 
                     minDate={new Date()}
-                    rangeColors={['#FD5B61']}
+                    rangeColors={['#ea773d']}
                     onChange={handleSelect}
                 />
                 <div className='flex items-center border-b mb-4'>
-                    <h2 className='text-2xl flex-grow font-semibold'
+                    <h2 className='text-white text-2xl flex-grow font-semibold'
                     >Number of Guests</h2>
 
-                    <UsersIcon className='h-5' />
+                      <UsersIcon className='text-[white] px-2 h-5' />
                     <input 
                     value={noOfGuests}
                     onChange={(e) => setNoOfGuests(e.target.value)}
@@ -107,7 +110,7 @@ function Header({ placeholder }) {
                 </div>
                 <div className='flex'>
                     <button onClick={resetInput} className='flex-grow text-gray-500'>Cancel</button>
-                    <button onClick={search} className='flex-grow text-red-400'>Search</button>
+                     <button onClick={search} className='flex-grow text-[#ea773d]'>Search</button>
                 </div>
             </div>
             )}

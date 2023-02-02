@@ -1,19 +1,22 @@
 import React from 'react'
+import nucasaBanner from '../public/nucasa-bg-2.png'
 import Image from 'next/legacy/image';
 
 function Banner() {
   return (
     <div className='relative h-[300px] sm:h-[400px] lg:h-[500px]
     xl:h-[600px] 2xl:h-[700px]'>
-        <Image src='https://links.papareact.com/0fm' 
-        layout='fill'
-        objectFit='cover'
+        <Image 
+          src={nucasaBanner} 
+          layout='fill'
+          objectFit='cover'
         />
     <div className='absolute top-1/2 w-full text-center'>
-        <p className='text-sm sm:text-lg'>Not sure where to go? Perfect.</p>
+        <p className='bannerMessage'>Not sure where to go?</p>
+        <p className='bannerMessage'>Perfect.</p>
 
-        <button className='text-purple-500 bg-white px-10 
-        py-4 shadow-md rounded-full font-bold my-3 hover:shadow-xl 
+        <button className='text-[#289bac] bg-[#ffb37f] px-10 
+        py-4 shadow-md rounded-full font-bold my-3 hover:bg-[#ea773d] hover:shadow-xl 
         active:scale-90 transition duration-150'>I'm flexible</button>
     </div>
     </div>

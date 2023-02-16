@@ -25,6 +25,7 @@ function Search({ searchResults }) {
 
         <main className='flex'>
             <section className='flex-grow pt-14 px-6'>
+                <p>These rooms are fictional and cannot be booked.</p>
                 <p className='text-xs'>300+ Stays - {range} - for {noOfGuests} guests</p>
                 <h1 className='text-3xl font-semibold mt-2 mb-6'>
                     Stays in {location}
@@ -47,8 +48,8 @@ function Search({ searchResults }) {
                         title={title}
                         description={description}
                         star={star}
-                        price={price}
-                        total={total}
+                        price={'$0.00'}
+                        total={'0.00'}
                     />
                 ))}
                 </div>

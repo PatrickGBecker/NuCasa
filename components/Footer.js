@@ -6,33 +6,26 @@ function Footer() {
    py-14 bg-[#ffb37f] text-white'>
       <div className='space-y-4 text-xs text-[#74a7af]'>
             <h5 className='font-bold'>ABOUT</h5>
-            <p>How HomeAway works</p>
-            <p>Newsroom</p>
-            <p>Investors</p>
-            <p>HomeAway Plus</p>
-            <p>HomeAway Luxe</p>
+            <p>This site was built</p>
+            <p>to display skills</p>
+            <p>with Next.js and </p>
+            <p>Tailwind CSS</p>
           </div>
       <div className='space-y-4 text-xs text-[#74a7af]'>   
               <h5 className='font-bold'>COMMUNITY</h5>
               <p>Accessibility</p>
-              <p>Combating Discrimination</p>
-              <p>Disaster Relief Housing</p>
-              <p>Visit our community forum</p>
+              <p>User Experience</p>
         </div>
       <div className='space-y-4 text-xs text-[#74a7af]'>
               <h5 className='font-bold'>HOST</h5>
-              <p>HomeAway your home</p>
-              <p>HomeAway for Hosts</p>
-              <p>Explore hosting resources</p>
-              <p>How to host responsibly</p>
+              <p>I am a graduate</p>
+              <p>from Turing School of Software & Design</p>
         </div>
       <div className='space-y-4 text-xs text-[#74a7af]'>
               <h5 className='font-bold'>SUPPORT</h5>
-              <p>Help Center</p>
-              <p>Supporting people with disabilities</p>
-              <p>Cancellation options</p>
-              <p>Our COVID-19 Response</p>
-              <p>Report a neighborhood concern</p>
+              <p>Please reach out to</p>
+              <p>Patrick Becker if you</p>
+              <p>like this site.</p>
         </div>
    </div>
 

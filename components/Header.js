@@ -52,18 +52,12 @@ function Header({ placeholder }) {
     grid-cols-3 bg-[#74a7af] shadow-md  px-5 md:px-10'>
 
         {/* left */}
-        {/*<div onClick={() => router.push('/')} 
+        <div onClick={() => router.push('/')} 
         className='relative flex items-center h-20 ml-8
         cursor-pointer my-auto'>
             <div className='mt-5 sm:mt-10 sm:mr-8 md:mt-12'>
-                <Image 
-                    src={nucasaLogo} 
-                    height={150}
-                    width={250}
-                    className='object-contain object-left'
-                />
             </div>
-  </div>*/}
+        </div>
         {/* middle */}
         <div className='flex items-center h-10 mt-5 md:border-2 rounded-full py-2 
         md:shadow-sm'>

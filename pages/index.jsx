@@ -11,7 +11,7 @@ export default function Home({ exploreData, cardsData }) {
   return (
     <div className="">
       <Head>
-        <title>NuCasa</title>
+        <title>Patrick Becker Portfolio Piece</title>
         <link rel="icon" href="/nucasa-icon.png" />
       </Head>
 
@@ -53,7 +53,7 @@ export default function Home({ exploreData, cardsData }) {
         <LargeCard 
           img='https://links.papareact.com/4cj'
           title='The Greatest Outdoors'
-          description='Wishlists curated by NuCasa'
+          description='Wishlists curated by Patrick Becker'
           buttonText='Get Inspired'
         />
       </main>

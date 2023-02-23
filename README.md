@@ -5,7 +5,7 @@
 
 ## Application in Action
 <figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
+  <video controls="true" allowfullscreen="true" poster="[mock-search-app.png](https://user-images.githubusercontent.com/96083023/221011666-9ca119ee-9edd-461c-a827-1208b429a26f.png)">
     <source src="https://www.youtube.com/embed/eybgnTT7K4o" type="video/mp4">
   </video>
 </figure>
